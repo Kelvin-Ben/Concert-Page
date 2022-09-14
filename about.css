@@ -1,0 +1,206 @@
+/* #272A31 
+  #D3D3D3
+  #EC5242
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  width: 100%;
+  height: auto;
+}
+/* primary-header */
+.primary-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #272A31;
+  width: 100%;
+  height: 25px;
+}
+#social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 20em;
+  gap: 1rem;
+}
+.media-icons {
+  list-style: none;
+}
+
+/* TOOLBAR */
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+}
+.toolbar img {
+  width: 60%;
+  padding: 5px;
+}
+.toolbar ul{
+  display: flex;
+  flex-direction: row;
+   justify-content: space-between;
+  width: 30%;
+  gap: 1rem;
+}
+.links  {
+  list-style-type: none;
+  gap: 1rem;
+  text-align: none;
+}
+.links a {
+  text-decoration: none;
+}
+
+/* INTRODUCTION */
+.introduction {
+  width: 100%;
+  margin: 10px auto;
+  background-image: url(./images/about_bg_01.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: 43px;
+    background-position-y: 1rem;
+  background-color: #ECECEC;
+  text-align: center;
+  
+}
+h1,h2 {
+  color: #EC5242;
+}
+.primary-text {
+  background-color: #fff;
+  border: 2px solid #D3D3D3;
+  border-radius: 5px;
+  height: auto;
+  width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.middle {
+  width: 100%;
+  text-align: center;
+  
+}
+#middle-logo {
+  width: 300px;
+  height: 100px;
+  border: 2px solid #D3D3D3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.summer-logo {
+  position: relative;
+  width: 60%;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  gap: 20px;
+  border-top: 2px solid #D3D3D3;
+}
+.year1 {
+  width: 90%;
+  height: 170px; 
+  background-image: url("./images/henri.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  filter: grayscale();
+  
+}
+.year2 {
+  width: 90%;
+  height: 170px; 
+  background-image: url("./images/icsa.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  filter: grayscale();
+  margin: 20px auto;
+}
+.year2 h2, .year1 h2 {
+  margin: 20px 0 auto;
+  color: #fff;
+}
+.year2 p, .year1 p {
+  margin: 20px 0 auto;
+  color: #fff;
+  font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+}
+#partner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272A31;
+  margin: 0 auto;
+}
+.partner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.partner-img {
+  width: 80%;
+}
+.partner-title {
+  width: 20%;
+  height: 50px;
+  margin: 20px auto;
+  color: #fff;
+  text-decoration: 5px solid #EC5242 underline;
+}
+#partner-1 {
+display: flex;
+align-items: center;
+justify-content: center;
+/* gap: 20%; */
+margin: 20px auto;
+}
+#partner-2 {
+  display: flex;
+  align-items: center;
+justify-content: center;
+margin: 20px auto;
+/* gap: 20%; */
+}
+.daumkakao, .mozilla, .google, .naver, .airbnb {
+  color: white;
+  margin: 0 1rem;
+}
+#airbnb-img {
+  width: 50%;
+  background-color: none;
+}
+footer {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px;
+}
+#footer-img {
+  width: 150px;
+  height: 100px;
+}
