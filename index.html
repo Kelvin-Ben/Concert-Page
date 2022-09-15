@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Lato:wght@400;700;900&family=Poppins:ital,wght@0,200;0,400;0,600;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="home.css">
+  <!-- <link rel="stylesheet" href="about.css"> -->
   <title>Summer Concert Page</title>
 </head>
 <body>
@@ -21,15 +22,18 @@
   </header>
   <header class="toolbar">
     <div id="toolbar-img">
-      <!-- <img src="./images/summer.png" alt="summer concert series"> -->
       <img src="./images/mobile_menu.png" alt="mobile_menu">
     </div>
-    <ul>
+    <ul id="pages">
       <li class="links"><a href="">Home</a></li>
       <li class="links"><a href="">About</a></li>
+      <li class="links"><a href="">Program</a></li>
+      <li class="links"><a href="">Join</a></li>
+      <li class="links"><a href="">News</a></li>
     </ul>
   </header>
-  <section class="introduction">
+  <section >
+    <div class="introduction">
     <h1 id="hello-text">"Hello sharing world!"</h1>
     <h2 id="summer-text">CREATIVE SUMMER CONCERT SERIES 2020</h2>
     <div id="details"><P class="primary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -45,9 +49,11 @@
         <h3 id="date">2022.10.16(THUR) ~ 20TH(MON)</h3>
         <p id="place">@ National museum of Korea, Art center Nabi and more</p>
       </div>
+    </div>
   </section>
   <section class="main-program">
     <h2 id="program">Main Program</h2>
+    <div id="program-list">
     <div id="one">
       <ul class="list">
         <li class="main"><img src="./images/conference.png" alt="" class="program-img"></li>
@@ -93,6 +99,7 @@
           lorem ipsum passage.</p></li>
       </ul>
     </div>
+  </div>
     <div id="join">
       <span>JOIN SUMMER CONCERT SERIES 2020</span>
     </div>
@@ -121,7 +128,82 @@
       <div class="speaker-1">
         <img src="./images/speaker_02.png" alt="">
         <div>
-        <h5 class="name">SohYeong Noh</h5>
+        <h5 class="name">
+          <strong> Joen Gilnam </strong>
+          <small>Kilnam</small>
+        </h5>
+        <p class="speaker-title">
+          <small>
+            Director of Art Centre and a board member of CC Korea
+          </small>
+        </p>
+        <p class="description">
+          Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 
+          1st-century BC text De Finibus Bonorum et Malorum.
+        </p>
+      </div>
+      </div>
+      <div class="speaker-1">
+        <img src="./images/speaker_03.png" alt="">
+        <div>
+        <h5 class="name">
+          <strong> SohYeong Noh </strong>
+          <small> Yeong</small>
+        </h5>
+        <p class="speaker-title">
+          <small>
+            Director of Art Centre and a board member of CC Korea
+          </small>
+        </p>
+        <p class="description">
+          Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 
+          1st-century BC text De Finibus Bonorum et Malorum.
+        </p>
+      </div>
+      </div>
+      <div class="speaker-1">
+        <img src="./images/speaker_04.png" alt="">
+        <div>
+        <h5 class="name">
+          <strong> Julia Leda </strong>
+          <small>Julia </small>
+        </h5>
+        <p class="speaker-title">
+          <small>
+            Director of Art Centre and a board member of CC Korea
+          </small>
+        </p>
+        <p class="description">
+          Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 
+          1st-century BC text De Finibus Bonorum et Malorum.
+        </p>
+      </div>
+      </div>
+      <div class="speaker-1">
+        <img src="./images/speaker_05.png" alt="">
+        <div>
+        <h5 class="name">
+          <strong> Layla Trettikov </strong>
+          <small> Lila</small>
+        </h5>
+        <p class="speaker-title">
+          <small>
+            Director of Art Centre and a board member of CC Korea
+          </small>
+        </p>
+        <p class="description">
+          Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 
+          1st-century BC text De Finibus Bonorum et Malorum.
+        </p>
+      </div>
+      </div>
+      <div class="speaker-1">
+        <img src="./images/speaker_06.png" alt="">
+        <div>
+        <h5 class="name">
+          <strong> Ryan Merkley </strong>
+          <small> Merkley</small>
+        </h5>
         <p class="speaker-title">
           <small>
             Director of Art Centre and a board member of CC Korea
@@ -141,5 +223,25 @@
       </span>
     </div>
   </section>
+  <div id="partner">
+    <h2 class="partner-title">Partner</h2>
+    <div class="partners">
+    <ul id="partner-1">
+      <li class="partner "><img src="./images/mozilla.png" alt="" class="partner-img"></li>
+      <li class="partner "><img src="./images/googlekorea.png" alt="" class="partner-img"></li>
+      <li class="partner "><img src="./images/naver.png" alt="" class="partner-img"></li>
+    </ul>
+    <ul id="partner-2">
+      <li class="partner "><img src="./images/kakao.png" alt="" class="partner-img"></li>
+      <li class="partner ">
+        <img src="./images/airbnb.png" alt="" id="airbnb-img" class="partner-img">      </li>
+    </ul>
+  </div>
+  </div>
+  <footer>
+    <img src="./images/summer.png" alt="" id="footer-img">
+    <p>Copyright &copy; 2022 by Kelvin Benjamin. Part of "Build Responsive
+      Real-World Websites with HTML and CSS".</p>
+  </footer>
 </body>
 </html>
