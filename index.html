@@ -12,6 +12,20 @@
   <title>Summer Concert Page</title>
 </head>
 <body>
+  <div id="overlay">
+    <div id="close-container" onclick="menuClose()">
+      <a id="closer" onclick="menuClose()">
+        <img src="./images/Icon.png" alt="Close" onclick="menuClose()">
+      </a>
+    </div>
+    <div id="menucontainer">
+        <a href="" onclick="menuClose()">Home</a>
+        <a href="" onclick="menuClose()">About</a>
+        <a href="" onclick="menuClose()">Program</a>
+        <a href="" onclick="menuClose()">Join</a>
+        <a href="" onclick="menuClose()">News</a>
+    </div>
+  </div>
   <header class="primary-header">
     <ul id="social-icons">
       <li class="media-icons"><img src="./images/facebook.png" alt=""></li>
@@ -21,12 +35,13 @@
     </ul>
   </header>
   <header class="toolbar">
-    <div id="toolbar-img">
-      <img src="./images/mobile_menu.png" alt="mobile_menu">
+    <img src="./images/summer.png" alt="" class="summer_img" >
+    <div >
+      <img src='./images/mobile_menu.png' alt="mobile_menu" id="toolbar-img" onclick= menuOpen() >
     </div>
-    <ul id="pages">
+    <ul id="link">
       <li class="links"><a href="">Home</a></li>
-      <li class="links"><a href="">About</a></li>
+      <li class="links"><a href="about.html">About</a></li>
       <li class="links"><a href="">Program</a></li>
       <li class="links"><a href="">Join</a></li>
       <li class="links"><a href="">News</a></li>
@@ -104,125 +119,14 @@
       <span>JOIN SUMMER CONCERT SERIES 2020</span>
     </div>
   </section>
-  <section class="feature-speakers">
-    <h2 id="featured-speakers">Main Speakers</h2>
-    <div id="speakers">
-      <div class="speaker-1">
-        <img src="./images/speaker_01.png" alt="">
-        <div>
-        <h5 class="name">
-          <strong> Yochai Benkler </strong>
-          <small>Yochai</small>
-        </h5>
-        <p class="speaker-title">
-          <small>
-            Berkman Professor of Entrepreneurial legal studies of Havard Law School
-          </small>
-        </p>
-        <p class="description">
-          Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 
-          1st-century BC text De Finibus Bonorum et Malorum.
-        </p>
-      </div>
-      </div>
-      <div class="speaker-1">
-        <img src="./images/speaker_02.png" alt="">
-        <div>
-        <h5 class="name">
-          <strong> Joen Gilnam </strong>
-          <small>Kilnam</small>
-        </h5>
-        <p class="speaker-title">
-          <small>
-            Director of Art Centre and a board member of CC Korea
-          </small>
-        </p>
-        <p class="description">
-          Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 
-          1st-century BC text De Finibus Bonorum et Malorum.
-        </p>
-      </div>
-      </div>
-      <div class="speaker-1">
-        <img src="./images/speaker_03.png" alt="">
-        <div>
-        <h5 class="name">
-          <strong> SohYeong Noh </strong>
-          <small> Yeong</small>
-        </h5>
-        <p class="speaker-title">
-          <small>
-            Director of Art Centre and a board member of CC Korea
-          </small>
-        </p>
-        <p class="description">
-          Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 
-          1st-century BC text De Finibus Bonorum et Malorum.
-        </p>
-      </div>
-      </div>
-      <div class="speaker-1">
-        <img src="./images/speaker_04.png" alt="">
-        <div>
-        <h5 class="name">
-          <strong> Julia Leda </strong>
-          <small>Julia </small>
-        </h5>
-        <p class="speaker-title">
-          <small>
-            Director of Art Centre and a board member of CC Korea
-          </small>
-        </p>
-        <p class="description">
-          Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 
-          1st-century BC text De Finibus Bonorum et Malorum.
-        </p>
-      </div>
-      </div>
-      <div class="speaker-1">
-        <img src="./images/speaker_05.png" alt="">
-        <div>
-        <h5 class="name">
-          <strong> Layla Trettikov </strong>
-          <small> Lila</small>
-        </h5>
-        <p class="speaker-title">
-          <small>
-            Director of Art Centre and a board member of CC Korea
-          </small>
-        </p>
-        <p class="description">
-          Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 
-          1st-century BC text De Finibus Bonorum et Malorum.
-        </p>
-      </div>
-      </div>
-      <div class="speaker-1">
-        <img src="./images/speaker_06.png" alt="">
-        <div>
-        <h5 class="name">
-          <strong> Ryan Merkley </strong>
-          <small> Merkley</small>
-        </h5>
-        <p class="speaker-title">
-          <small>
-            Director of Art Centre and a board member of CC Korea
-          </small>
-        </p>
-        <p class="description">
-          Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 
-          1st-century BC text De Finibus Bonorum et Malorum.
-        </p>
-      </div>
-      </div>
-    </div>
-    <div class="btn-speaker">
-      <span id="button">
-        More
-        <img src="./images/down-arrow.png" alt="">
-      </span>
-    </div>
+  <section class="feature-speakers" id="feature">
   </section>
+  <div class="btn-speaker">
+    <span id="button">
+      More
+      <img src="./images/down-arrow.png" alt="" />
+    </span>
+  </div>
   <div id="partner">
     <h2 class="partner-title">Partner</h2>
     <div class="partners">
@@ -243,5 +147,6 @@
     <p>Copyright &copy; 2022 by Kelvin Benjamin. Part of "Build Responsive
       Real-World Websites with HTML and CSS".</p>
   </footer>
+  <script src="./featured-speakers.js"></script>
 </body>
 </html>
