@@ -113,7 +113,6 @@ h2 {
   align-items: center;
   justify-content: flex-start;
 
-  /* margin: 0 auto; */
 }
 
 .primary-text {
@@ -314,7 +313,6 @@ footer {
   margin: 0 auto;
   margin-top: 10px;
 
-  /* margin-bottom: 20px; */
 }
 
 .btn-speaker:hover {
@@ -367,8 +365,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* gap: 20%; */
   margin: 20px auto;
 }
 
@@ -377,8 +373,6 @@ footer {
   align-items: center;
   justify-content: center;
   margin: 20px auto;
-
-  /* gap: 20%; */
 }
 
 .daumkakao,

@@ -1,17 +1,8 @@
-/* #272A31
-  #D3D3D3
-  #EC5242
-*/
 * {
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
 }
-
-/* body {
-  width: 100%;
-  height: auto;
-} */
 .container {
   overflow: hidden;
   margin: 0;
@@ -150,7 +141,6 @@ h2 {
 }
 
 .bottom strong {
-  /* border-bottom: 5px solid #EC5242; */
   cursor: pointer;
   margin: 10px auto;
 }
@@ -161,8 +151,6 @@ h2 {
   background-image: url("./images/henri.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-
-  /* filter: grayscale(); */
   background-blend-mode: multiply;
   background-color: crimson;
 }
@@ -375,7 +363,6 @@ footer {
   }
 
   .middle h3 {
-    /* text-decoration: 2px solid #EC5242 underline; */
     color: #272a31;
     font-size: 34px;
     cursor: pointer;
@@ -393,7 +380,6 @@ footer {
   }
 
   .summer-logo {
-    /* position: relative; */
     width: 50%;
   }
 
