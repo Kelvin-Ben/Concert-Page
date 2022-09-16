@@ -29,10 +29,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- Thank you Microverse for the chance to learn through others
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by Cindy Shin in Behance https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 ## 📝 License
 
