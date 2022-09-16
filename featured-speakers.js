@@ -79,5 +79,3 @@ onboardSpeakers.forEach((i) => {
   const speaker_description = createElementAndAppendToParent('p', 'description', 'description', specific_speakers, '');
   const description = createElementAndAppendToParent('span', 'description', 'description', speaker_description, `${onboardSpeakers[onboardSpeakers.indexOf(i)].description}`);
 });
-// const button = createElementAndAppendToParent('div', 'btn-speaker', 'btn', feature_speakers, '');
-// const button_span = createElementAndAppendToParent('span', 'button', 'button', button, `${button}`); 
