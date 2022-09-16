@@ -8,9 +8,13 @@
   font-family: 'Lato', sans-serif;
 }
 
-body {
+/* body {
   width: 100%;
   height: auto;
+} */
+.container {
+  overflow: hidden;
+  margin: 0;
 }
 
 /* primary-header */
@@ -19,7 +23,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   background-color: #272a31;
-  width: 100%;
+  width: auto;
   height: 25px;
   cursor: pointer;
   padding: 5px;
@@ -59,10 +63,7 @@ body {
 
 .toolbar ul {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 30%;
-  gap: 1rem;
+  gap: 5rem;
 }
 
 a {
@@ -87,8 +88,8 @@ a {
   background-image: url(./images/about_bg_01.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position-x: 43px;
-  background-position-y: 1rem;
+  background-position-x: 17px;
+  background-position-y: 10rem;
   background-color: #ececec;
   text-align: center;
 }
@@ -277,7 +278,12 @@ footer {
   }
 
   footer {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 80px;
   }
 
   .toolbar img {

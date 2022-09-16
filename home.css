@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -40,10 +40,10 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: flex-start;
   height: 70px;
-  background-color: #f9f9f9;
+  padding: 0 3%;
+  gap: 50px;
 }
 
 .toolbar img {
@@ -54,9 +54,7 @@ body {
 .toolbar ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 30%;
-  gap: 1rem;
+  gap: 6rem;
 }
 
 .links {
@@ -72,10 +70,15 @@ a {
   text-decoration: none;
 }
 
+#link {
+  display: flex;
+  gap: 5rem;
+}
+
 /* INTRODUCTION */
 .introduction {
   width: 100%;
-  height: 32rem;
+  height: auto;
   background-image: url(./images/main_big.png);
   background-repeat: repeat;
   background-size: 100%;
@@ -202,14 +205,14 @@ h2 {
 }
 
 .program-img {
-  grid-column: 1/ span 1;
+  grid-column: 1 / span 1;
   grid-row: 1/2;
   align-items: center;
   justify-items: center;
 }
 
 .main h4 {
-  grid-column: 2/span 1;
+  grid-column: 2 / span 1;
   grid-row: 1/2;
   align-self: center;
   font-weight: 600;
@@ -447,7 +450,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    padding: 20px;
+    padding: 0 13rem;
   }
 
   .toolbar img {
