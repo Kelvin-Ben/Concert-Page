@@ -112,7 +112,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-
 }
 
 .primary-text {
@@ -312,7 +311,6 @@ footer {
   border: 2px solid #d3d3d3;
   margin: 0 auto;
   margin-top: 10px;
-
 }
 
 .btn-speaker:hover {
