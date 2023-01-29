@@ -1,5 +1,5 @@
 
-# CONCERT PAGE
+### CONCERT PAGE
 - I build an online website for a conference which is a concert.
 - I implemented javascript features where a section of html was created dynamically by javascript code.
 ## Built With
@@ -8,15 +8,14 @@
 - JavasScript
 - media queries
 
-# Live Demo link https://kelvin-ben.github.io/Concert-Page/
+# [Live Demo](https://dreamy-faun-c8e3ff.netlify.app/index.html)
 
 👤 **Kelvin Ben**
 
-- GitHub: [@Kevo-hacker] (https://github.com/Kevo-hacker)
-- Twitter: [@kevoyout144] (https://twitter.com/kevoyout144)
-- LinkedIn: [Kelvin Ben] (https://www.linkedin.com/in/kelvin-ben-323043173/)
+- GitHub: [@Kelvin-Ben](https://github.com/Kevo-hacker)
+- Twitter: [@kevoyout144](https://twitter.com/kevoyout144)
+- LinkedIn: [Kelvin Ben](https://www.linkedin.com/in/kelvin-ben-323043173/)
 
-👤 
 
 ## 🤝 Contributing
 
