@@ -11,7 +11,7 @@ The concert page is a web-based project that shows upcoming events as well as th
 ## Live Demo
   Click [here](https://dreamy-faun-c8e3ff.netlify.app/index.html)
   
-  ### Author
+ ## Author
 
 👤 Kelvin Benjamin
 
@@ -35,4 +35,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://mit-license.org/) licensed.
