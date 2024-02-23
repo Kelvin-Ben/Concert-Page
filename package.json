@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch-sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "lite-server",
+    "compile-sass": "npm-run-all --parallel devserver watch-sass"
   },
   "repository": {
     "type": "git",
@@ -22,9 +24,13 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
     "hint": "^7.1.2",
+    "node-sass": "^9.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
   }
 }
