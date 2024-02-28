@@ -13,3 +13,8 @@ body {
 html {
   font-size: 62.5%;
 }
+*,
+:link,
+:active {
+  color: $color-primary-red;
+}
