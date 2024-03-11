@@ -1,0 +1,37 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url("/images/main_big.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+
+  &__intro {
+    width: 80%;
+    height: 80rem;
+    margin: auto;
+  }
+
+  &__heading {
+    width: 50%;
+    height: auto;
+  }
+
+  &__text {
+    width: 40%;
+    height: auto;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 3rem 0;
+    padding: 2rem;
+  }
+}
+.date {
+  width: 50%;
+  height: auto;
+
+  &__text {
+    font-size: 2rem;
+  }
+}
