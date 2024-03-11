@@ -4,3 +4,27 @@ body {
   line-height: 1.7;
   font-weight: 400;
 }
+.container {
+  width: 100%;
+  height: auto;
+}
+.primary-heading {
+  font-weight: 500;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  color: $color-primary-red;
+}
+.secondary-heading {
+  font-size: 7rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  // width: 80%;
+  // background-image: linear-gradient(to right, transparent, $color-primary-1), url('/images/icsa.jpg');
+}
+.sub-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.7;
+}
