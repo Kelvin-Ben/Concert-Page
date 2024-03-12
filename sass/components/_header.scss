@@ -1,11 +1,12 @@
 .navigation {
   width: 100%;
   height: 15rem;
-  box-shadow: 0.5rem 0.5rem 1rem rgba($color-primary, $alpha: 0.1);
+  box-shadow: 1px 3px 5px rgba($color-primary, $alpha: 0.1);
   font-size: 1.5rem;
   font-weight: 700;
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 
   &__top {
     background-color: $color-primary;
