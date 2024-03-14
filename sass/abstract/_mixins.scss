@@ -1,0 +1,12 @@
+@mixin underline {
+  &::after {
+    content: "";
+    position: absolute;
+    top: 6rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 5rem;
+    height: 2px;
+    background-color: rgba($color-primary-red, $alpha: 0.8);
+  }
+}
