@@ -1,29 +1,18 @@
 .program {
   width: 100%;
-  height: 55vh;
+  height: 60vh;
   background-image: url("/images/black.jpg");
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 
   &__heading {
     // width: 80%;
     margin: auto;
     color: #eee;
-    font-weight: 600;
     text-align: center;
     text-transform: capitalize;
     position: relative;
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: 6rem;
-      left: 6rem;
-      width: 5rem;
-      height: 2px;
-      background-color: rgba($color-primary-red, $alpha: 0.8);
-    }
+    @include underline;
   }
 }
 .programs {
@@ -73,12 +62,11 @@
 }
 #items {
   width: 60%;
-  height: 30rem;
+  height: 40rem;
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  // border: 1px solid red;
+  justify-content: space-around;
 }
 h3 {
   font-weight: 800;
