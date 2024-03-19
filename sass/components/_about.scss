@@ -111,7 +111,7 @@
     text-align: center;
     font-size: 1.3rem;
   }
-  
+
   &__images {
     width: 50%;
     margin: auto;
@@ -136,15 +136,21 @@
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;flex-direction: column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: $color-primary-1;
   font-size: 1.3rem;
   font-weight: 600;
-  background: linear-gradient(to bottom, rgba($color-primary-red, 0.7), rgba($color-primary-red, 0.7));
+  background: linear-gradient(
+    to bottom,
+    rgba($color-primary-red, 0.7),
+    rgba($color-primary-red, 0.7)
+  );
 }
-.event-2013, .event-2011 {
+.event-2013,
+.event-2011 {
   width: 100%;
   height: 100%;
 }
@@ -155,7 +161,6 @@
 .about-footer {
   height: 23rem;
   background-color: $color-primary;
-  
 }
 .footer-description {
   z-index: 1;
