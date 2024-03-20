@@ -3,6 +3,7 @@
   height: 70vh;
   margin: auto;
   border-bottom: 0.5px solid rgba($color-primary, 0.1);
+  margin-bottom: 5rem;
 
   &__intro {
     width: 80%;
@@ -55,21 +56,21 @@
   font-size: 4rem;
   text-transform: uppercase;
   position: relative;
-  @include underline;
+  // @include underline;
 }
 
 // start styling main section
 .main {
   width: 100%;
   height: 80vh;
-  border: 1px solid red;
+  // border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .logo {
   height: 55%;
-  border: 1px solid black;
+  // border: 1px solid black;
   display: flex;
   flex-direction: column;
   // justify-content: space-around;
@@ -79,8 +80,8 @@
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: 2px;
-    border: 1px solid black;
-    // @include underline;
+    // border: 1px solid black;
+    @include underline;
   }
   &__about {
     width: 40%;
@@ -105,7 +106,7 @@
     font-size: 2rem;
     margin-bottom: 1rem;
     position: relative;
-    border: 1px solid green;
+    // border: 1px solid green;
   }
   p {
     text-align: center;
@@ -119,7 +120,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid black;
+    // border: 1px solid black;
   }
 }
 .image-container {
@@ -161,10 +162,18 @@
 .about-footer {
   height: 23rem;
   background-color: $color-primary;
+  
 }
 .footer-description {
-  z-index: 1;
-  color: $color-primary-1;
+  // color: $color-primary-1;
+  width: 50%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  height: 70%;
+  margin: auto;
+  border: 1px solid red;
+}
+.korea-logo {
+  width: 100%;
 }
